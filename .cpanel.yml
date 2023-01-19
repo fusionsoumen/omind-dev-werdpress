@@ -15,6 +15,6 @@ jobs:
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-          ftp-server: ${{ secrets.FTP_SERVER }}
-          ftp-username: ${{ secrets.FTP_USERNAME }}
+          ftp-server: 198.12.253.240
+          ftp-username: omind-wordpress@fbsstaging.fusionbposervices.com
           ftp-password: ${{ secrets.FTP_PASSWORD }}
