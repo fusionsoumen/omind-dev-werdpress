@@ -1,0 +1,61 @@
+/* casestudy-section */
+.casestudy-section{
+    .swiper {
+        .swiper-slide {
+            @include transition;
+            @include border-redus($size: 20px);
+            overflow: hidden;
+            align-items: stretch;
+            height: auto;
+            border-style: solid;
+            border-width: 1px 1px 1px 1px;
+            border-color: $border-color;
+            &:hover{
+                box-shadow: 0px 4px 18px 0px rgb(8 15 30 / 6%);
+                border-style: solid;
+                border-color: $white-color;
+            } 
+        }
+
+        padding-bottom: 30px;
+        .swiper-pagination {
+            bottom: 10px;
+        }
+    }
+    .wrap{
+        
+        .image-wrap{
+            overflow: hidden;
+            img{
+                width: 100%;
+                object-fit: cover;
+                height: 100%;
+                @include transition;
+            }
+            &:hover{
+                img{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .content-wrap{
+            text-align: left;
+            padding: 30px 20px;
+            p{
+                color: $gray-color;
+            }
+            h4{
+                a{
+                    color: $black-color;
+                    text-decoration: none;
+                    @include transition;
+                    &:hover{
+                        text-decoration: none;
+                        color: $blue-color;
+                    }
+                }
+            }
+        }
+    }
+   
+}
