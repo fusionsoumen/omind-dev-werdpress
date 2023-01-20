@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/fbsstaging/public_html/omind-new/wp-content/themes/xmoze-child/
+    - export DEPLOYPATH=/home/fbsstaging/public_html/omind-new/wp-content/themes/xmoze-child
     - /bin/cp * $DEPLOYPATH
