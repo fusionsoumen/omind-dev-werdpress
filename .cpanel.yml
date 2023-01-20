@@ -2,4 +2,4 @@
 deployment:
   tasks:
      - export DEPLOYPATH=/home/fbsstaging/public_html/omind-new/wp-content/themes/
-     - /bin/cp -r /home/fbsstaging/repositories/ $DEPLOYPATH
+     - /bin/cp -r /home/fbsstaging/repositories/xmoze-child/ $DEPLOYPATH
