@@ -16,7 +16,7 @@ $border-color: #02021E1A;
     font-size: 62.5%;
 }
 body {
-    font-family: $secondary-font;
+    font-family: $secondary-font !important;
     font-weight: normal;
     font-size: 1.4rem;
     color: $gray-color;
@@ -29,13 +29,13 @@ pre:empty {
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: $secondary-font !important;
+    font-family: $primary-font !important;
 }
 
 p,
 ul,
 ol,li {
-    font-family: $secondary-font;
+    font-family: $secondary-font !important;
     font-weight: normal;
     font-size: 1.6rem;
     letter-spacing: normal;

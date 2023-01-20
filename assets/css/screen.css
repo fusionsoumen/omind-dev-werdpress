@@ -9183,7 +9183,7 @@ h3 {
 }
 
 body {
-  font-family: "Mulish", sans-serif;
+  font-family: "Mulish", sans-serif !important;
   font-weight: normal;
   font-size: 1.4rem;
   color: #6f6e84;
@@ -9195,13 +9195,13 @@ pre:empty {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Mulish", sans-serif !important;
+  font-family: "Krub", Arial !important;
 }
 
 p,
 ul,
 ol, li {
-  font-family: "Mulish", sans-serif;
+  font-family: "Mulish", sans-serif !important;
   font-weight: normal;
   font-size: 1.6rem;
   letter-spacing: normal;
