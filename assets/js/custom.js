@@ -7,4 +7,15 @@ var swiper = new Swiper(".mySwiper", {
       el: ".swiper-pagination",
       clickable: true,
     },
+    breakpoints: {
+      500: {
+        slidesPerView: 1
+      },
+      767: {
+        slidesPerView: 1.5
+      },
+      991: {
+        slidesPerView: 2
+      }
+    }
   });
