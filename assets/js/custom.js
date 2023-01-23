@@ -16,6 +16,9 @@ var swiper = new Swiper(".mySwiper", {
       },
       991: {
         slidesPerView: 2
+      },
+      1024: {
+        slidesPerView: 3
       }
     }
   });
