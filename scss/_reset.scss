@@ -37,8 +37,13 @@ ol,li {
     font-size: 1.6rem;
     letter-spacing: normal;
     margin: 0;
-    margin-bottom: 15px;
     color: $gray-color;
+}
+
+p,
+ul,
+ol{
+    margin-bottom: 15px;
 }
 
 p:only-child, ul:only-child, ol:only-child, li:only-child{
