@@ -9206,6 +9206,12 @@ ol, li {
   font-size: 1.6rem;
   letter-spacing: normal;
   margin: 0;
+  margin-bottom: 15px;
+  color: #6f6e84;
+}
+
+p:only-child, ul:only-child, ol:only-child, li:only-child {
+  margin-bottom: 0;
 }
 
 .padding-70-0 {
