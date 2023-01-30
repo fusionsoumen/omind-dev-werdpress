@@ -46,6 +46,14 @@ ol{
     margin-bottom: 15px;
 }
 
+ul li{
+    list-style: disc;
+}
+
+ol li{
+    list-style: decimal;
+}
+
 p:only-child, ul:only-child, ol:only-child, li:only-child{
     margin-bottom: 0;
 }
