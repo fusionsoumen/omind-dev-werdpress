@@ -9553,6 +9553,11 @@ p:only-child, ul:only-child, ol:only-child, li:only-child {
   object-fit: cover;
 }
 
+/* Header-section */
+.navbar-nav ul li {
+  list-style: none;
+}
+
 /* casestudy-section */
 .casestudy-section .swiper {
   padding-bottom: 30px;
